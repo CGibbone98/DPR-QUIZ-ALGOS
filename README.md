@@ -7,10 +7,10 @@ Algorithm Quiz 1
  <li>What does sheevpalpatine.java do? You can copy the code from above and use a browser ide here... https://www.compilejava.net/</li>
   <li>Submit a binary search example by adding a file to this project after forking it. Be sure to explain how the example functions using comments or in this README.</li>
  
- <li>The program sheevpalpatine.java is a program emphasizing palindromes in Java. A palindrome is a string that has the same value when reversed. A perfect example of a palindrome is the word dad because when reversed it has the same exact value and remains unchanged. The program analyzes the word "reliefpfpfeiller" to check if it's a palindrome.</li>
+ The program sheevpalpatine.java is a program emphasizing palindromes in Java. A palindrome is a string that has the same value when reversed. A perfect example of a palindrome is the word dad because when reversed it has the same exact value and remains unchanged. The program analyzes the word "reliefpfpfeiller" to check if it's a palindrome.
  
  
  
   <li>Is a selection sort or a bubble sort faster?</li>
-  <li> A selection sort is generally considered faster than a bubble sort.</li>
+   A selection sort is generally considered faster than a bubble sort.
  </ol>
