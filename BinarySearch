@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class BinarySearch {
+    public static void main(String args[]) {
+        
+    	 //Declaring the variables, length is the number of variables total in the array
+    	int length=6, item, low, high, mid;
+    	
+        //Create an Array 
+        int array[] = {0, 2, 4, 6, 8, 10};
+
+        //A scanner for where the user inputs the number they want to find the index for
+        System.out.println("Enter the number above you want to find the value for:");
+        Scanner input = new Scanner(System.in);
+        item = input.nextInt();
+        low = 0;
+        high = length - 1;
+        
+        while (low <= high) {
+        
+        //Terminates search when the value is found at the current mid position, starts at the middle 
+        mid = (low + high) / 2;
+            if (array[mid] < item)
+                low = mid + 1;
+            
+            //Prints the value found at the location
+            else if (array[mid] == item) {
+                System.out.println(item + " found at location " + (mid)); 
+                break;
+
+            } else {
+                high = mid - 1;
+            }
+           
+        }
+    }
+}
