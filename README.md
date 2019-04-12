@@ -12,7 +12,8 @@ Algorithm Quiz 1
   <h4>Submit a binary search example by adding a file to this project after forking it. Be sure to explain how the example functions using comments or in this README.</h4>
   <ol>
  
-
+ <li> A binary search in Java finds the specified value within an array. In the program example, the size of the array is declared as the length. The lowest number in the array is 0, so that is declared in the int low variable. The value we are looking for will lie between the low and high variables. .</li>
+ </ol>
  
  
   <h4>Is a selection sort or a bubble sort faster?</h4>
